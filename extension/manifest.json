@@ -1,0 +1,19 @@
+{
+	"manifest_version":2,
+	"name":"Timezone Finder",
+	"version":"2.0.1",
+	"description":"This is a simple extension that displays your current time zone",
+	"author":"Taruna Saini",
+	"icons":{
+		"128":"clock.png"
+	},
+	"browser_action":{
+		"default_icon":"clock.png",
+		"default_title":"Timezone Finder",
+		"default_popup":"popup.html"
+	},
+	"permissions":["activeTab"],
+	"background":{
+		"scripts":["main.js"]
+	}
+}
